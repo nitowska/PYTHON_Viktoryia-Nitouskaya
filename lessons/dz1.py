@@ -12,3 +12,8 @@ print (D)
 x1 = (- b + (D ** 0.5)) // (2 * a)
 x2 = (- b - (D ** 0.5)) // (2 * a)
 print (x1, x2)
+
+import math
+x1 = (- b + math.sqrt (D)) // (2 * a)
+x2 = (- b - math.sqrt (D)) // (2 * a)
+print (x1, x2)
